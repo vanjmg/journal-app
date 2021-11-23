@@ -33,6 +33,7 @@ class CategoriesController < ApplicationController
       else
         f.html (render :new)
       end
+    end
   end
 
   def update
